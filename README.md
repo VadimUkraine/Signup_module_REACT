@@ -3,12 +3,19 @@ It's a signup module which consists of 3 steps.
 Some information about this App:
 
 1.Email and Password are required.
+
 2.Password should be minimum 6 characters long and Password conﬁrmation should match the password.
+
 3.All ﬁelds in “Date of birth” are required (Dates like 30/2/1991 are invalid).
+
 4.The user must be 18 year old or more.
+
 5.One gender option must be selected from the 3 given.
+
 6.“Where did you hear about us?” is optional.
+
 7. When a ﬁeld is invalid, it shows a useful message in the label itself, red in colour.
+
 8. The “Go to Dashboard” button at the last step will print all the details entered as a JSON in the Browser console, something like:
  { “user_data”: { “email”: …, “password”: …, “date_of_birth”: 1485761262, “gender”: “female”, “how_hear_about_us”: null } 
 
